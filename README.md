@@ -1,0 +1,5 @@
+﻿Handwritten Digits Classifiers
+
+This is a project in CSE4/574 Intro to Machine Learning course at University at Buffalo. In this project, five machine learning models (logistic regression, linear support machines, random forest, deep neural networks (DNN) and convolutional neural networks (CNN)) were trained on the MNIST dataset. They were then evaluated on both MNIST and USPS test sets. At alst, these models were combined by the boosting hard voting approach. It is observed from the performances that all the models achieved an accuracy of more than $90\%$ in the MNIST datasets and the CNN model is the most accurate one. However, for the USPS dataset, the highest accuracy these models could get is less than $60\%$. That proves the "No Free Lunch" theorem. In addition, the combined models failed to provide an increase in performance from the effective CNN model.
+
+The project description is in Project3.pdf. The full report is in report.pdf file and the python code is in DigitClassifier.ipynb file.   
